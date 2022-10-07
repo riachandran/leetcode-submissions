@@ -6,7 +6,7 @@ class Solution(object):
         """
         bracket_map = {"(": ")", "[": "]",  "{": "}"}
         open_bracket = ["(", "[", "{"]
-        stack = []
+        stack = [] 
         for i in s:
             if i in open_bracket:
                 stack.append(i)
